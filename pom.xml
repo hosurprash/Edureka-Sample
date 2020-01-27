@@ -5,7 +5,7 @@
     <groupId>com.Nandihal</groupId>
     <artifactId>addressbook</artifactId>
     <packaging>war</packaging>
-    <version>2.0</version>
+    <version>2.0-SNAPSHOT</version>
     <name>Vaadin Addressbook example</name>
 
     <properties>
@@ -160,8 +160,8 @@
         
         <distributionManagement>
   <repository>
-    <id>subbu</id>
-    <url>http://192.168.176.142:8081/nexus/content/repositories/subbu</url>
+    <id>nexus</id>
+    <url>http://localhost:8081/repository/Edureka-SNAPSHOT-jan2020/</url>
   </repository>
 </distributionManagement>
 
